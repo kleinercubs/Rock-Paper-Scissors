@@ -24,9 +24,9 @@ void keyTyped(){
   if (keyPressed && key=='s') player=1;
   if (keyPressed && key=='r') player=2;
   if (keyPressed && key=='p') player=3;
-  println(player);
+  //println(player);
   flag=false;
-  println(flag);
+  //println(flag);
   if ((!flag) && player>0){
     background(0); 
     int k=player+1;
