@@ -36,7 +36,7 @@ void keyTyped(){
     int k=player+1;
     if (k>3) k=k%3;
     text("You :",10,50);
-    text(str[player],10,100);
+    text(str[player-1],10,100);
     text("Computer :",10,150);
     text(str[computer-1],10,200);
     if (k!=computer && player!=computer) text("YOU WIN",10,300);
