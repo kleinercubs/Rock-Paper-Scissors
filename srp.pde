@@ -38,7 +38,7 @@ void keyTyped(){
     text("You :",10,50);
     text(str[player],10,100);
     text("Computer :",10,150);
-    text(str[computer],10,200);
+    text(str[computer-1],10,200);
     if (k!=computer && player!=computer) text("YOU WIN",10,300);
     if (k==computer) text("COMPUTER WIN",10,300);
     if (player==computer) text("DRAW",10,300);
@@ -46,4 +46,3 @@ void keyTyped(){
     player=0;
   }
 }
-
