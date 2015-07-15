@@ -25,9 +25,9 @@ void draw(){
 }
 
 void keyPressed(){
-  if (keyPressed && key=='s') player=1;
-  if (keyPressed && key=='r') player=2;
-  if (keyPressed && key=='p') player=3;
+  if (key=='s') player=1;
+  if (key=='r') player=2;
+  if (key=='p') player=3;
   //println(player);
   flag=false;
   //println(flag);
