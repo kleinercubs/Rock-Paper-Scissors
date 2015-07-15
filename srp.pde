@@ -24,7 +24,7 @@ void draw(){
       
 }
 
-void keyTyped(){
+void keyPressed(){
   if (keyPressed && key=='s') player=1;
   if (keyPressed && key=='r') player=2;
   if (keyPressed && key=='p') player=3;
