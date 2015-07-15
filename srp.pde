@@ -13,6 +13,7 @@ void draw(){
         //delay(3000);
         int time = millis();
         while(millis() - time <=800){fill(255,255,255);}
+      }
       d++;
       background(0);
       textSize(20);
